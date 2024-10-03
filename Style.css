@@ -1,0 +1,254 @@
+body {
+    background: white
+}
+
+ul#menu {
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px 0px 0px 370px ;
+    list-style: none;
+    margin: 0px auto;
+    top: 0;
+}
+
+ul#menu li {
+    border-bottom: 5px solid #54bae200;
+    display: block;
+    width: 150px;
+    height: 54px;
+    margin: 2px;
+    float: left;
+    border-radius: 15px;
+    
+}
+ul#menu li a {
+    color: #000000;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+ul#menu li.active, ul#menu li:hover {
+    background: #FF0017;;
+    ;
+    border-bottom: 5px solid #ffffff;
+}
+
+
+
+div#titolo{
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: rgb(0, 0, 0);
+    overflow: auto;
+    padding: 15px;
+    margin: 0px 350px 0px 350px;
+    font-size: 35px;
+}
+
+
+
+div#sottotitolo{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px; /* serve a distanziare il titolo dal sottotitolo*/
+}
+
+
+div#episodi{
+    font-family: 'Fredoka One', cursive;
+}
+
+div#pres{
+    width: 65%;
+    padding-left: 80px;
+    padding-top: 80px;
+    font-size: 23px;
+    text-align: justify;
+}
+
+.testo{
+    font-family: 'Fredoka One', cursive;
+}
+
+img#me{
+    float: right;
+    width: 25%;
+}
+
+hr{
+    color: rgb(0, 0, 0);
+    border: solid;
+    border-radius: 5px;
+}
+
+button {
+    font-family: 'Fredoka One', cursive;
+    background-color: transparent;
+    border: transparent;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 15px;
+    width: 150px;
+    height: 63px;
+    top: 0;
+}
+
+  button:hover{
+    background: #FF0017;
+    border: none;
+    border-bottom: 5px solid #ffffff;
+   }
+
+
+div#rng{
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+div#nomi{
+    font-family: 'Fredoka One', cursive;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+img#img1{
+    width: 20%;
+    float: left;
+    border: #fff 2px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 10%;
+}
+
+img#img2{
+    width: 25%;
+    float: right;
+    border: #fff 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 10%;
+}
+   
+div#txt1,#txt2{
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    text-align: justify;
+}
+   
+
+
+.logo{
+    width: 25%;
+}
+    
+
+table, th, td {
+    padding: 8px;
+    text-align: center;
+    margin-left: 130px;
+}
+
+
+table#ciao{
+    width: 70%;
+    text-align: right;
+}
+
+td, th {
+    width: 150px;
+}
+  
+
+  progress {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 120px;
+    overflow: hidden;
+}
+  
+  
+  progress::-webkit-progress-bar {
+   background-color: #d4d1d1;
+}
+  
+  .html::-webkit-progress-value {
+   background-color: #e34f27;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+  }
+
+  .css::-webkit-progress-value {
+    background-color: #264ee4;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   }
+
+   .c::-webkit-progress-value {
+    background-color: #004481;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   }
+
+   .cpp::-webkit-progress-value {
+    background-color: #004481;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   }
+
+   .pit::-webkit-progress-value {
+    background-color: #ffdc52;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   }
+
+ img#cam{
+    float: right;
+ }
+
+ img#cam:hover{
+    width: 30%;
+    transition: all .3s ease-out;
+ }
+
+ div#txtcam,#null,.txtcomp{
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+ }
+
+div#null{
+    color: white;
+}
+
+.contenitore-immagini {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .contenitore-immagini figure {
+    text-align: center;
+    width: 30%;
+    margin: 5px; 
+  }
